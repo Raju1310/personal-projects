@@ -1,0 +1,106 @@
+
+.container-fluid{
+padding: 7% 10%;
+}
+
+body{
+    font-family: 'Shantell Sans', cursive;
+font-family: 'Ubuntu', sans-serif;
+}
+
+button{
+    margin: 5% 5% 5% 5%;
+}
+
+.nav-item{
+    padding: 0px 18px;
+}
+.iphone-img{
+    position: absolute;
+    right:30%;
+}
+
+@media (max-width:1028px) {
+    .iphone-img{
+        position: static;
+    }
+}
+.navbar{
+    padding-bottom: 4rem;
+}
+
+h1{
+    color: white;
+}
+.nav-link{
+    color: white;
+}
+
+#title{
+background-color: #FF5F9E;
+text-align: center;
+}
+.title{
+    padding: 5%;
+}
+
+#features{
+background-color:white;
+padding: 5% 10%;
+position: relative;
+}
+
+.feature-item{
+    text-align: center;
+    padding: 7%;
+    color: #FF5F9E;
+
+}
+
+
+#testimonials{
+    /* margin: 5%; */
+    text-align: center;
+    
+    background-color: #ff5f9fb4;}
+
+.carousel-item{
+    padding: 5% 30%;
+
+}
+
+.testimonial-img{
+    width: 10%;
+    border-radius: 30px;
+}
+
+
+#press{
+padding: 3% 0%;
+text-align: center;
+background-color:#ff5f9fb4;
+}
+
+.press-img{
+    margin: 30px;
+    width: 15%;
+}
+
+#pricing{
+/* background-color: pink; */
+/* border: solid 1px black; */
+padding: 5%;
+}
+
+#cta{
+    padding: 5%;
+    background-color: #FF5F9E;
+    text-align: center;
+}
+
+#footer{
+    padding: 5%;
+    background-color: #ff5f9fb4;
+    border: solid 1px black;
+    text-align: center;
+}
